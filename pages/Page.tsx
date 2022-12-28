@@ -9,7 +9,7 @@ export default function Page() {
         <div className={styles.container}>
         <Image className={styles.logotipo} src={avatar} alt="Logo" />
         <div className={styles.containertexto}>
-            <h1>Gabriel Dias Santigo</h1>
+            <h1>Gabriel Dias Santiago</h1>
             <span>Designer UI/UX e Desenvolvedor front-end 😊</span>
         </div>
         <div className={styles.links}>
