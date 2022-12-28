@@ -1,0 +1,111 @@
+@import './cores.scss';
+
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.containertexto h1 {
+    font-size: 30px;
+    font-family: 'Montserrat';
+}
+.containertexto span {
+    font-family: 'Montserrat';
+    font-weight: 300;
+
+}
+.links {
+    margin-top: $espacamento;
+}
+.buttondiscord {
+    background: #5865F2;
+    border-radius: 8px;
+    padding: 11px 70px;
+    border: 0;
+    display: flex;
+    margin: 0 auto;
+    color: $branco;
+    cursor: pointer;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    width: 250px;
+}
+.buttongithub {
+    padding: 11px 70px;
+    background: #000000;
+    border-radius: 8px;
+    color: $branco;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin: 20px auto;
+    border: 0;
+    width: 250px;
+    cursor: pointer;
+
+
+}
+.buttonfacebook {
+    padding: 11px 70px;
+    background: #1877F2;
+    border-radius: 8px;
+    color: $branco;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin: 20px auto;
+    border: 0;
+    display: flex;
+    text-align: center;
+    width: 250px;
+    cursor: pointer;
+
+}
+.buttoninstagram {
+    padding: 11px 70px;
+    background: linear-gradient(225deg, #FF7061 0%, #A033FF 50.52%, #0099FF 100%);    border-radius: 8px;
+    color: $branco;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin: 20px auto;
+    border: 0;
+    display: flex;
+    text-align: center;
+    width: 250px;
+    cursor: pointer;
+
+}
+.buttonemail {
+    padding: 11px 70px;
+    background-color: blueviolet;
+    border: 0;
+    color: $branco;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin: 20px auto;
+    display: flex;
+    text-align: center;
+    width: 250px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.links a {
+    text-decoration: none;
+    color: $branco;
+}
+
+.logotipo{
+    border: 0;
+    border-radius: 100px;
+}
